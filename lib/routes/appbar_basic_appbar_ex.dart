@@ -7,7 +7,7 @@ class BasicAppbarExample extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.redAccent,
+        backgroundColor: Colors.blue,
         leading: const Icon(Icons.tag_faces),
         title: const Text("Sample title"),
         actions: <Widget>[
